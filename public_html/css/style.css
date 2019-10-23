@@ -290,7 +290,6 @@ body{
     background-size: cover;
 }
 .commodity-card{
-    max-height: 472px;
     min-width: 100%;
     transition: 0.8s all;
     position: relative;
@@ -325,8 +324,10 @@ body{
 }
 .post-thumbnail{
     position: relative;
-    width: 373px;
-    height: 244px;
+    width: 100%;
+}
+.post-thumbnail img{
+    width: 100%;
 }
 .post-thumbnail .overlay{
     background: rgba(255,255,255,0.4);
@@ -343,7 +344,6 @@ body{
 .post{
     text-align: center;
     transition: 0.5s all;
-    width: 373px;
 }
 .post-thumbnail:hover .overlay,img{
     opacity: 1;
@@ -353,7 +353,7 @@ body{
     text-align: center;
     margin-top: 10px;
     transition: 0.3s all;
-    
+
 }
 .post .category:hover{
     color: #16181b;
@@ -370,4 +370,708 @@ body{
 }
 .post:hover{
     box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.15);
+}
+@media (max-width: 768px){
+    .cdetail button{
+        opacity: 1;
+    }
+}
+
+
+.JOINOURNEWSLETTER{
+    background-color:#45cfbe;
+}
+.footer a,.text-footer, .meta-menu * a{
+    text-decoration:none;
+    color:#000000;
+    font-size: 15px;
+    line-height: 1.75;
+    font-weight: 400;
+}
+.footer a:hover{
+    color:#04edcf;
+    transition: 0.3s all;
+}
+.meta-menu * a:hover{
+    color:#04edcf !important;
+    transition: 0.3s all;
+}
+ul{
+    list-style: none;
+}
+.footer * li{
+
+    padding: 5px 0px 5px 0px;
+}
+
+
+
+
+@media (min-width: 1024px){
+    .meta-menu{
+        min-width: 960px;
+    }
+}
+
+@media (max-width: 1439px){
+    .meta-menu{
+        min-width: 600px;
+    }
+}
+
+@media (max-width: 992px){
+    .meta-menu{
+        min-width: 600px;
+    }
+}
+
+@media (max-width: 720px){
+    .meta-menu{
+        min-width: 600px;
+    }
+}
+@media (max-width: 620px){
+    .meta-menu{
+        min-width: 300px;
+    }
+}
+
+@media (max-width: 425px){
+    .meta-menu{
+        min-width: 100%;
+        padding: 0;
+    }
+}
+
+
+
+
+.meta-menu * ul{
+    padding-right: 0;
+}
+
+
+/* FOOTER */
+/*! CSS Used from: http://dici.themes.zone/main/wp-content/cache/autoptimize/8/css/autoptimize_3189c644b638ec496883548408cdbda4.css ;
+ media=all */
+@media all{
+    .fa-cc-visa:before{
+        content:"\f1f0";
+    }
+    .fa-cc-mastercard:before{
+        content:"\f1f1";
+    }
+    .fa-cc-amex:before{
+        content:"\f1f3";
+    }
+    .fa-cc-paypal:before{
+        content:"\f1f4";
+    }
+
+    .site-footer{
+        font-size:12.36px;
+    }
+    .site-footer .site-info a{
+        text-decoration:none;
+        text-align:center;
+        transition:color .4s cubic-bezier(.455,.03,.515,.955);
+    }
+    .site-footer .site-info a:hover{
+        color:#00d1b7;
+    }
+    .site-footer .menu{
+        list-style:none;
+        padding:0;
+        margin:0;
+    }
+    .site-footer .menu li{
+        display:inline-block;
+    }
+    .site-footer .menu li a{
+        text-decoration:none;
+        transition:color .4s cubic-bezier(.455,.03,.515,.955);
+    }
+    .site-footer .menu li a:hover{
+        color:#00d1b7;
+    }
+    @media screen and (max-width:767px){
+        .site-footer .menu{
+            text-align:center;
+        }
+    }
+    .site-footer .menu:not(#social-menu) li:after{
+        display:inline-block;
+        margin:0 7px -1px 9px;
+        content:'';
+        background-color:#000;
+        width:1px;
+        height:.8em;
+    }
+    .site-footer .menu:not(#social-menu) li:last-child:after{
+        display:none;
+    }
+    @media screen and (max-width:767px){
+        .site-footer .menu:not(#social-menu) li:after{
+            display:none;
+        }
+    }
+    .site-footer .menu#social-menu li{
+        position:relative;
+        margin:0 10px 0;
+    }
+    .site-footer .menu#social-menu li a{
+        display:inline-block;
+        position:relative;
+        width:32px;
+        height:inherit;
+        font-size:2rem;
+    }
+    .site-footer div:nth-child(2){
+        text-align:center;
+    }
+    .site-footer div:nth-child(3){
+        text-align:right;
+    }
+    .site-footer:after{
+        clear:both;
+    }
+    .site-footer{
+        border-top:1px solid #e1e1e1;
+    }
+    .site-footer .site-footer-inner{
+        display:grid;
+        padding-top:32px;
+        padding-bottom:32px;
+        grid-template-columns:1fr;
+        grid-gap:30px;
+    }
+    .site-footer .site-footer-inner:first-child:last-child .site-info{
+        text-align:center;
+    }
+    @media screen and (min-width:1024px){
+        .site-footer .site-footer-inner{
+            margin-left:30px;
+            margin-right:30px;
+            max-width:1200px;
+        }
+    }
+    @media screen and (min-width:1024px) and (min-width:1400px){
+        .site-footer .site-footer-inner{
+            margin-left:auto!important;
+            margin-right:auto!important;
+        }
+    }
+    @media screen and (max-width:767px){
+        .site-footer .site-footer-inner{
+            padding:1em 2em;
+        }
+    }
+    @media screen and (min-width:1024px){
+        .site-footer .site-footer-inner{
+            grid-template-columns:repeat(auto-fit,minmax(calc(25% - 15px),1fr));
+        }
+    }
+    .site-footer{
+        border-top:1px solid #e1e1e1;
+    }
+    .site-footer .site-footer-inner{
+        display:grid;
+        padding-top:32px;
+        padding-bottom:32px;
+        grid-template-columns:1fr;
+        grid-gap:30px;
+    }
+    .site-footer .site-footer-inner:first-child:last-child .site-info{
+        text-align:center;
+    }
+    @media screen and (min-width:1024px){
+        .site-footer .site-footer-inner{
+            margin-left:30px;
+            margin-right:30px;
+            max-width:1200px;
+        }
+    }
+    @media screen and (min-width:1024px) and (min-width:1400px){
+        .site-footer .site-footer-inner{
+            margin-left:auto!important;
+            margin-right:auto!important;
+        }
+    }
+    @media screen and (max-width:767px){
+        .site-footer .site-footer-inner{
+            padding:1em 2em;
+        }
+    }
+    @media screen and (min-width:1024px){
+        .site-footer .site-footer-inner{
+            grid-template-columns:repeat(auto-fit,minmax(calc(25% - 15px),1fr));
+        }
+    }
+    .fab{
+        -moz-osx-font-smoothing:grayscale;
+        -webkit-font-smoothing:antialiased;
+        display:inline-block;
+        font-style:normal;
+        font-variant:normal;
+        text-rendering:auto;
+        line-height:1;
+    }
+    .fa-cc-amex:before{
+        content:"\f1f3";
+    }
+    .fa-cc-mastercard:before{
+        content:"\f1f1";
+    }
+    .fa-cc-paypal:before{
+        content:"\f1f4";
+    }
+    .fa-cc-visa:before{
+        content:"\f1f0";
+    }
+    .fab{
+        font-family:"Font Awesome 5 Brands";
+    }
+}
+/*! CSS Used from: Embedded */
+a{
+    color:#000000;
+}
+a:hover{
+    color:#7e7e7e;
+}
+.site-footer .menu li a,.site-info,.site-info a{
+    font-size:13px;
+    font-weight:400;
+    line-height:1.5;
+    text-align:left;
+    color:#434343;
+}
+/*! CSS Used fontfaces */
+@font-face{
+    font-family:"Font Awesome 5 Brands";
+    font-style:normal;
+    font-weight:normal;
+    font-display:auto;
+    src:url(//dici.themes.zone/main/wp-content/themes/dici/assets/css/../webfonts/fa-brands-400.eot);
+    src:url(//dici.themes.zone/main/wp-content/themes/dici/assets/css/../webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(//dici.themes.zone/main/wp-content/themes/dici/assets/css/../webfonts/fa-brands-400.woff2) format("woff2"),url(//dici.themes.zone/main/wp-content/themes/dici/assets/css/../webfonts/fa-brands-400.woff) format("woff"),url(//dici.themes.zone/main/wp-content/themes/dici/assets/css/../webfonts/fa-brands-400.ttf) format("truetype"),url(//dici.themes.zone/main/wp-content/themes/dici/assets/css/../webfonts/fa-brands-400.svg#fontawesome) format("svg");
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:100;
+    src:local('Poppins Thin Italic'), local('Poppins-ThinItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiAyp8kv8JHgFVrJJLmE0tDMPKzSQ.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:100;
+    src:local('Poppins Thin Italic'), local('Poppins-ThinItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiAyp8kv8JHgFVrJJLmE0tMMPKzSQ.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:100;
+    src:local('Poppins Thin Italic'), local('Poppins-ThinItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiAyp8kv8JHgFVrJJLmE0tCMPI.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:200;
+    src:local('Poppins ExtraLight Italic'), local('Poppins-ExtraLightItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmv1pVFteOcEg.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:200;
+    src:local('Poppins ExtraLight Italic'), local('Poppins-ExtraLightItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmv1pVGdeOcEg.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:200;
+    src:local('Poppins ExtraLight Italic'), local('Poppins-ExtraLightItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmv1pVF9eO.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:300;
+    src:local('Poppins Light Italic'), local('Poppins-LightItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLm21lVFteOcEg.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:300;
+    src:local('Poppins Light Italic'), local('Poppins-LightItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLm21lVGdeOcEg.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:300;
+    src:local('Poppins Light Italic'), local('Poppins-LightItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLm21lVF9eO.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:400;
+    src:local('Poppins Italic'), local('Poppins-Italic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLucXtAKPY.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:400;
+    src:local('Poppins Italic'), local('Poppins-Italic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLufntAKPY.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:400;
+    src:local('Poppins Italic'), local('Poppins-Italic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLucHtA.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:500;
+    src:local('Poppins Medium Italic'), local('Poppins-MediumItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmg1hVFteOcEg.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:500;
+    src:local('Poppins Medium Italic'), local('Poppins-MediumItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmg1hVGdeOcEg.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:500;
+    src:local('Poppins Medium Italic'), local('Poppins-MediumItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmg1hVF9eO.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:600;
+    src:local('Poppins SemiBold Italic'), local('Poppins-SemiBoldItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:600;
+    src:local('Poppins SemiBold Italic'), local('Poppins-SemiBoldItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:600;
+    src:local('Poppins SemiBold Italic'), local('Poppins-SemiBoldItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:700;
+    src:local('Poppins Bold Italic'), local('Poppins-BoldItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VFteOcEg.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:700;
+    src:local('Poppins Bold Italic'), local('Poppins-BoldItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VGdeOcEg.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:700;
+    src:local('Poppins Bold Italic'), local('Poppins-BoldItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VF9eO.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:800;
+    src:local('Poppins ExtraBold Italic'), local('Poppins-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLm111VFteOcEg.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:800;
+    src:local('Poppins ExtraBold Italic'), local('Poppins-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLm111VGdeOcEg.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:800;
+    src:local('Poppins ExtraBold Italic'), local('Poppins-ExtraBoldItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLm111VF9eO.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:900;
+    src:local('Poppins Black Italic'), local('Poppins-BlackItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLm81xVFteOcEg.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:900;
+    src:local('Poppins Black Italic'), local('Poppins-BlackItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLm81xVGdeOcEg.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:italic;
+    font-weight:900;
+    src:local('Poppins Black Italic'), local('Poppins-BlackItalic'), url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLm81xVF9eO.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:100;
+    src:local('Poppins Thin'), local('Poppins-Thin'), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrLPTucXtAKPY.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:100;
+    src:local('Poppins Thin'), local('Poppins-Thin'), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrLPTufntAKPY.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:100;
+    src:local('Poppins Thin'), local('Poppins-Thin'), url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrLPTucHtA.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:200;
+    src:local('Poppins ExtraLight'), local('Poppins-ExtraLight'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLFj_Z11lFc-K.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:200;
+    src:local('Poppins ExtraLight'), local('Poppins-ExtraLight'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLFj_Z1JlFc-K.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:200;
+    src:local('Poppins ExtraLight'), local('Poppins-ExtraLight'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLFj_Z1xlFQ.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:300;
+    src:local('Poppins Light'), local('Poppins-Light'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:300;
+    src:local('Poppins Light'), local('Poppins-Light'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLDz8Z1JlFc-K.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:300;
+    src:local('Poppins Light'), local('Poppins-Light'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:400;
+    src:local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:400;
+    src:local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:400;
+    src:local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:500;
+    src:local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:500;
+    src:local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:500;
+    src:local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:600;
+    src:local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:600;
+    src:local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:600;
+    src:local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:700;
+    src:local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:700;
+    src:local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:700;
+    src:local('Poppins Bold'), local('Poppins-Bold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:800;
+    src:local('Poppins ExtraBold'), local('Poppins-ExtraBold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLDD4Z11lFc-K.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:800;
+    src:local('Poppins ExtraBold'), local('Poppins-ExtraBold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLDD4Z1JlFc-K.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:800;
+    src:local('Poppins ExtraBold'), local('Poppins-ExtraBold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:900;
+    src:local('Poppins Black'), local('Poppins-Black'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLBT5Z11lFc-K.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:900;
+    src:local('Poppins Black'), local('Poppins-Black'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLBT5Z1JlFc-K.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:900;
+    src:local('Poppins Black'), local('Poppins-Black'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face{
+    font-display:swap;
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:400;
+    src:local('Poppins Regular'), local('Poppins-Regular'), url(//dici.themes.zone/main/wp-content/uploads/sites/8/2019/10/pxiEyp8kv8JHgFVrFJM.woff) format('woff');
+}
+@font-face{
+    font-display:swap;
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:500;
+    src:local('Poppins Medium'), local('Poppins-Medium'), url(//dici.themes.zone/main/wp-content/uploads/sites/8/2019/10/pxiByp8kv8JHgFVrLGT9V1g.woff) format('woff');
+}
+@font-face{
+    font-display:swap;
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:600;
+    src:local('Poppins SemiBold'), local('Poppins-SemiBold'), url(//dici.themes.zone/main/wp-content/uploads/sites/8/2019/10/pxiByp8kv8JHgFVrLEj6V1g.woff) format('woff');
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:500;
+    src:local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');
+    unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:500;
+    src:local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format('woff2');
+    unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face{
+    font-family:'Poppins';
+    font-style:normal;
+    font-weight:500;
+    src:local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');
+    unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
