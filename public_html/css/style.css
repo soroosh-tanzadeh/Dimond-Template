@@ -279,6 +279,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 60px;
 }
 .titleh:after {
     width: 108px;
@@ -315,5 +316,58 @@ body{
 }
 .clist{
     position: relative;
-
+}
+.feature{
+    font-size: 13px;
+}
+.feature h5{
+    font-size: 15px;
+}
+.post-thumbnail{
+    position: relative;
+    width: 373px;
+    height: 244px;
+}
+.post-thumbnail .overlay{
+    background: rgba(255,255,255,0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s all;
+}
+.post{
+    text-align: center;
+    transition: 0.5s all;
+    width: 373px;
+}
+.post-thumbnail:hover .overlay,img{
+    opacity: 1;
+}
+.post .category{
+    color: rgb(0, 162, 142);
+    text-align: center;
+    margin-top: 10px;
+    transition: 0.3s all;
+    
+}
+.post .category:hover{
+    color: #16181b;
+    cursor: pointer;
+}
+.post h2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.post p{
+    text-align: center;
+    padding: 10px;
+}
+.post:hover{
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.15);
 }
